@@ -1,0 +1,16 @@
+Versions used
+container nvcr.io/nvidia/deepstream:5.0.1-20.09-base
+Tensorrt  7.2.1
+CuDNN 8.0.4
+I've got mine from the following file, downloaded from Nvidia website
+nv-tensorrt-repo-ubuntu1804-cuda10.2-trt7.2.1.6-ga-20201006_1-1_amd64.deb
+
++ whatever dependecies are needed to run gstreamer python, see dockerfile
+
+
+tensorrt engine created following
+https://github.com/NVIDIA-AI-IOT/yolov4_deepstream
+
+machine used:
+AWS g4dn.xlarge with AMI: Deep Learning Base AMI (Ubuntu 18.04) Version 31.0
+(driver 450.80.02)
