@@ -1,0 +1,1 @@
+trtexec --onnx=yolov4_-1_3_608_608_dynamic.onnx --minShapes=input:1x3x608x608 --optShapes=input:4x3x608x608 --maxShapes=input:8x3x608x608 --workspace=8048 --saveEngine=yolov4_1-8_3_608_608_dynamic_fp16.engine --fp16
